@@ -27,7 +27,7 @@ body {
     list-style: none;
 }
 
-.target  li{
+.hitbox {
     position: relative;
     float: left;
     width: 22px;
@@ -43,7 +43,7 @@ selector {
     margin-right: 0;
 }
 
-.shooter-1 .target .miss .hitbox{
+selector {                  /* маленькая серая цель */
     width: 10px;
     height: 10px;
     margin: 6px auto;
@@ -51,7 +51,7 @@ selector {
     background: #999999;
 }
 
-selector {
+selector {                    /*по ходу белая цель*/
     position: absolute;
     top: -2px;
     left: -2px;
@@ -62,7 +62,7 @@ selector {
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
-selector {
+selector {                      /*маленький рычаг*/
     position: absolute;
     top: 12px;
     left: 11px;
