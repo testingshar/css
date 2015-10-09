@@ -27,7 +27,7 @@ body {
     list-style: none;
 }
 
-.hitbox {
+selector {              /*черная точка*/
     position: relative;
     float: left;
     width: 22px;
@@ -43,7 +43,7 @@ selector {
     margin-right: 0;
 }
 
-selector {                  /* маленькая серая цель */
+selector {          /*серая точка*/
     width: 10px;
     height: 10px;
     margin: 6px auto;
@@ -51,7 +51,7 @@ selector {                  /* маленькая серая цель */
     background: #999999;
 }
 
-selector {                    /*по ходу белая цель*/
+selector {          /*белая точка*/
     position: absolute;
     top: -2px;
     left: -2px;
@@ -62,7 +62,7 @@ selector {                    /*по ходу белая цель*/
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
-selector {                      /*маленький рычаг*/
+i {          /*палочка*/
     position: absolute;
     top: 12px;
     left: 11px;
