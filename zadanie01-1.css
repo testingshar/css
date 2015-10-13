@@ -16,7 +16,7 @@ body {
 }
 
 .target {
-    width: 220px;
+    width: 200px;
     height: 25px;
     margin: 0 auto;
     padding: 10px 15px 10px 15px;
@@ -27,7 +27,7 @@ body {
     list-style: none;
 }
 
-selector {              /*черная точка*/
+.target li {           /*черный кружек*/
     position: relative;
     float: left;
     width: 22px;
@@ -51,7 +51,7 @@ selector {          /*серая точка*/
     background: #999999;
 }
 
-selector {          /*белая точка*/
+selector {
     position: absolute;
     top: -2px;
     left: -2px;
@@ -62,7 +62,7 @@ selector {          /*белая точка*/
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
-i {          /*палочка*/
+selector {
     position: absolute;
     top: 12px;
     left: 11px;
