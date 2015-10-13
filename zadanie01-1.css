@@ -16,7 +16,7 @@ body {
 }
 
 .target {
-    width: 200px;
+    width: 220px;
     height: 25px;
     margin: 0 auto;
     padding: 10px 15px 10px 15px;
@@ -27,7 +27,7 @@ body {
     list-style: none;
 }
 
-.target li {           /*черный кружек*/
+li {           /*черный кружек*/
     position: relative;
     float: left;
     width: 22px;
@@ -43,7 +43,7 @@ selector {
     margin-right: 0;
 }
 
-selector {          /*серая точка*/
+li .hitbox {          /*серая точка*/
     width: 10px;
     height: 10px;
     margin: 6px auto;
@@ -51,7 +51,7 @@ selector {          /*серая точка*/
     background: #999999;
 }
 
-selector {
+selector {          /*белый кружок*/
     position: absolute;
     top: -2px;
     left: -2px;
@@ -62,7 +62,7 @@ selector {
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
-selector {
+selector {          /*палочка*/
     position: absolute;
     top: 12px;
     left: 11px;
