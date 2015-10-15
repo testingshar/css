@@ -1,0 +1,87 @@
+html, body{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:Tahoma, Arial, sans-serif;
+    font-size:12px;
+    width:550px;
+    height:300px;
+}
+.profile{           /*отступы всего профиля*/
+    padding:5px 10px;
+}
+.profile img{
+    display:block;
+    padding:10px;
+    border: 2px solid #34495e;
+    border-radius:8px;
+}
+.profile .photo{
+    float:left;
+    width:152px;
+}
+.profile .info{
+    float:left;
+    width:368px;
+    margin-left:10px;
+}
+.info h2{
+    margin:0;
+    padding:10px;
+    font-size:12px;
+    font-weight:normal;
+    background:#34495e;
+    color:#fff;
+    border-radius:4px;
+}
+.fact{
+    padding:10px;
+    background:white;
+}
+.fact:nth-child(odd){
+    background:#ecf0f1;
+}
+.fact:after{
+    content:"";
+    clear:both;
+    display:table;
+}
+.fact .title{
+   float:left;
+   width:120px;
+   text-align:right;
+   color:#7f8c8d;
+}
+.fact .value{
+   margin-left:140px;
+   color:#34495e;
+}
+.albums{
+    margin-top:5px;    
+}
+.albums img{
+    float:left;
+    margin-right:5px;
+}
+.albums img:last-child{
+    margin-right:0;
+}
+.button{
+    display:block;
+    height:30px;
+    margin:5px 0;
+    text-align:center;
+    line-height:30px;
+    color:#fff;
+    border-radius:4px;
+}
+.profile .stroke{
+    background:#3498db;
+}
+.profile .feed{
+    background:#2ecc71;
+}
+.profile .startle{
+    background:#e74c3c;
+}
