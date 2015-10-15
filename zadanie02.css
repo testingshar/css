@@ -11,22 +11,22 @@ body{
 .profile{           /*отступы всего профиля*/
     padding:5px 10px;
 }
-.profile img{
+.profile img{           /*рамки на фотках*/
     display:block;
     padding:10px;
     border: 2px solid #34495e;
     border-radius:8px;
 }
-.profile .photo{
+.profile .photo{            /*обтекание аватарки общей инфой*/
     float:left;
     width:152px;
 }
-.profile .info{
+.profile .info{         /*сжатие общей инфы по размеру профиля*/
     float:left;
     width:368px;
     margin-left:10px;
 }
-.info h2{
+.info h2{           /*оформление полей ОБЩАЯ ИНФА и АЛЬБОМЫ*/
     margin:0;
     padding:10px;
     font-size:12px;
@@ -35,7 +35,7 @@ body{
     color:#fff;
     border-radius:4px;
 }
-.fact{
+.fact{              /*разметка инфы в ОБЩЕЙ ИНФЕ*/
     padding:10px;
     background:white;
 }
@@ -47,7 +47,7 @@ body{
     clear:both;
     display:table;
 }
-.fact .title{
+.fact .title{       /*выравнивание инфы в профиле ОБЩАЯ ИНФА*/
    float:left;
    width:120px;
    text-align:right;
