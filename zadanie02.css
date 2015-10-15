@@ -53,7 +53,7 @@ body{
    text-align:right;
    color:#7f8c8d;
 }
-.fact .value{
+.fact .value{           /*отступ одписания в ОБЩЕЙ ИНФЕ*/
    margin-left:140px;
    color:#34495e;
 }
@@ -67,7 +67,7 @@ body{
 .albums img:last-child{
     margin-right:0;
 }
-.button{
+.profile .button{            /*кнопки под аватаркой*/
     display:block;
     height:30px;
     margin:5px 0;
@@ -76,12 +76,12 @@ body{
     color:#fff;
     border-radius:4px;
 }
-.profile .stroke{
+.profile .stroke{       /*кнопка ПОГЛАДИТЬ*/
     background:#3498db;
 }
-.profile .feed{
+.profile .feed{         /*кнопка НАКОРМИТЬ*/
     background:#2ecc71;
 }
-.profile .startle{
+.profile .startle{          /*кнопка НАПУГАТЬ*/
     background:#e74c3c;
 }
