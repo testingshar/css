@@ -8,25 +8,25 @@ body{
     width:550px;
     height:300px;
 }
-.profile{           /*отступы всего профиля*/
+.profile{           /*общий отступ всего профиля*/
     padding:5px 10px;
 }
-.profile img{           /*рамки на фотках*/
+.profile img{           /*рамка на всех фото*/
     display:block;
     padding:10px;
     border: 2px solid #34495e;
     border-radius:8px;
 }
-.profile .photo{            /*обтекание аватарки общей инфой*/
+.profile .photo{        /*обтекание аватарки текстом*/
     float:left;
     width:152px;
 }
-.profile .info{         /*сжатие общей инфы по размеру профиля*/
+.profile .info{         /*выравнивание справа общей инфы от аватара*/
     float:left;
     width:368px;
     margin-left:10px;
 }
-.info h2{           /*оформление полей ОБЩАЯ ИНФА и АЛЬБОМЫ*/
+.info h2{           /*оформление колонок ОБЩАЯ ИНФА и АЛЬБОМЫ*/
     margin:0;
     padding:10px;
     font-size:12px;
@@ -35,11 +35,11 @@ body{
     color:#fff;
     border-radius:4px;
 }
-.fact{              /*разметка инфы в ОБЩЕЙ ИНФЕ*/
+.fact{          /*оформление полей в ОБЩЕЙ ИНФОРМАЦИИ*/
     padding:10px;
     background:white;
 }
-.fact:nth-child(odd){
+.profile .fact:nth-child(odd){      /*оформление полей(цвет) типа "ПОЗЫВНЫЕ" */
     background:#ecf0f1;
 }
 .fact:after{
@@ -47,27 +47,27 @@ body{
     clear:both;
     display:table;
 }
-.fact .title{       /*выравнивание инфы в профиле ОБЩАЯ ИНФА*/
+.profile .fact .title{       /*выравнивание инфы в ОБЩЕЙ ИНФОРМАЦИИ*/
    float:left;
    width:120px;
    text-align:right;
    color:#7f8c8d;
 }
-.fact .value{           /*отступ одписания в ОБЩЕЙ ИНФЕ*/
+.info .fact .value{           /*отступы инфы в ОБЩЕЙ ИНФОРМАЦИИ*/
    margin-left:140px;
    color:#34495e;
 }
 .albums{
     margin-top:5px;    
 }
-.albums img{
+.albums img{        /*выравнивание в альбоме картинок*/
     float:left;
     margin-right:5px;
 }
 .albums img:last-child{
     margin-right:0;
 }
-.profile .button{            /*кнопки под аватаркой*/
+.profile .button{            /*оформление кнопок под аватаркой*/
     display:block;
     height:30px;
     margin:5px 0;
@@ -76,10 +76,10 @@ body{
     color:#fff;
     border-radius:4px;
 }
-.profile .stroke{       /*кнопка ПОГЛАДИТЬ*/
+.profile .stroke{           /*кнока ПОГЛАДИТЬ*/
     background:#3498db;
 }
-.profile .feed{         /*кнопка НАКОРМИТЬ*/
+.profile .feed{             /*кнопка НАКОРМИТЬ*/
     background:#2ecc71;
 }
 .profile .startle{          /*кнопка НАПУГАТЬ*/
