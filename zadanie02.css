@@ -26,12 +26,13 @@ body{
     width:368px;
     margin-left:10px;
 }
-.info h2{           /*оформление колонок ОБЩАЯ ИНФА и АЛЬБОМЫ*/
-    margin:0;
-    padding:10px;
+
+h2{           /*оформление колонок ОБЩАЯ ИНФА и АЛЬБОМЫ*/
+    margin:0 !important;
+    padding:10px !important;
     font-size:12px;
     font-weight:normal;
-    background:#34495e;
+    background:#34495e !important;
     color:#fff;
     border-radius:4px;
 }
@@ -61,11 +62,11 @@ body{
     margin-top:5px;    
 }
 .albums img{        /*выравнивание в альбоме картинок*/
-    float:left;
-    margin-right:5px;
+    float:left ;
+    margin-right:5px !important;
 }
 .albums img:last-child{
-    margin-right:0;
+    margin-right:0 !important;
 }
 .profile .button{            /*оформление кнопок под аватаркой*/
     display:block;
