@@ -1,0 +1,48 @@
+html, body{
+    margin:0;
+    padding:0;
+}
+body{
+    width:450px;
+    font-family:"Arial", sans-serif;
+    font-size:16px;
+    
+}
+h1{
+    padding:0 20px;
+    margin:0;
+    margin-top:20px;
+    font-size:18px;
+    font-weight:normal;
+}
+
+.grayfon {
+    background-color: #eeeeee;
+}
+
+.graynumber {
+    color: #999999;
+}
+
+table {
+    border-collapse: collapse;    
+}
+
+td {
+    padding: 10px;
+    width: 50px;
+    
+}
+
+td:nth-child(2) {
+    padding: 0px;
+}
+
+td:first-child {
+    font-style: italic;    
+}
+
+
+/* 
+     Все внутренние отступы кратны 5
+*/
