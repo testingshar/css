@@ -1,0 +1,35 @@
+html, body {
+    margin: 0; 
+    padding: 0;
+}
+
+.block {
+    width: 300px;
+    height: 300px;
+    background: #3498db;
+}
+
+.bg {
+    height: 300px;
+    background: 
+    url("/assets/course13/cat_fish_128.png") no-repeat 80px 145px,
+    url("/assets/course13/star.png") repeat-x 80px 270px, 
+    url("/assets/course13/cat_grumpy_128.png") no-repeat 5px 125px,
+    url("/assets/course13/cat_drunk_128.png") no-repeat 150px 130px,
+    url("/assets/course13/cat_walk_128.png") no-repeat 70px 80px,
+    url("/assets/course13/cat_academy.png") no-repeat 10px 20px,
+    url("/assets/course13/star.png") repeat-x 80px 10px;
+}
+
+/*
+Адреса картинок:
+/assets/course13/cat_fish_128.png
+/assets/course13/cat_grumpy_128.png
+/assets/course13/cat_drunk_128.png
+/assets/course13/cat_walk_128.png
+/assets/course13/cat_academy.png
+/assets/course13/star.png
+
+Подсказка:
+Все координаты (background-position) кратны либо 5, либо 10
+*/
