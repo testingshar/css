@@ -1,0 +1,69 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 280px;
+    min-height: 250px;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+    font-family: "Arial", sans-serif;
+    line-height: 1.2;
+    color: #7f8c8d;
+    background: #ecf0f1;
+}
+
+.post {
+    //position: absolute;    
+}
+
+.post-stats .icon {
+    width: 15px;
+    height: 15px;
+}
+
+.post .post-date {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: #ffffff;
+    border-bottom: 5px solid #bdc3c7;
+    color: #7f8c8d;
+}
+
+.post .post-title {
+    position: absolute;
+    left: 90px;
+    color: #2980b9;
+    font-size: 20px;
+    
+}
+
+.post .post-author {
+    position: absolute;    
+    left: 90px;
+    top: 70px;
+}
+
+.post .post-stats{
+    position: absolute;
+    top: 90px;    
+    left: 100px;
+}
+
+.post .post-text {
+    position: absolute;
+    top: 130px;
+    left: 90px;
+}
+
+/*
+Все размеры, отступы, координаты, размеры шрифтов (не заданные в body) кратны 5 или 10.
+Ардеса картинок:
+/assets/course14/quotes.png
+/assets/course14/post-challenge.png
+Картинка "кавычки" выровнена по центру
+*/
