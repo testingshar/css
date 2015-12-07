@@ -17,21 +17,25 @@ body {
 }
 
 .post {
-    //position: absolute;    
+    position: relative;    
 }
 
 .post-stats .icon {
+    position: absolute;
     width: 15px;
     height: 15px;
 }
 
 .post .post-date {
     position: absolute;
-    width: 60px;
-    height: 60px;
     background: #ffffff;
     border-bottom: 5px solid #bdc3c7;
     color: #7f8c8d;
+    font-weight: bold;
+    font-size:15px;
+    text-align: center;
+    padding: 20px 10px
+    
 }
 
 .post .post-title {
@@ -39,26 +43,57 @@ body {
     left: 90px;
     color: #2980b9;
     font-size: 20px;
-    
 }
 
 .post .post-author {
     position: absolute;    
-    left: 90px;
+    left: 80px;
     top: 70px;
+    padding: 10px;
+    color: #bdc3c7;
 }
 
-.post .post-stats{
+a {
+    color: #2980b9;
+    //text-size: 25px;
+}
+.post .post-stats {
     position: absolute;
-    top: 90px;    
-    left: 100px;
+    top: 100px;    
+    left: 110px;
 }
 
 .post .post-text {
     position: absolute;
     top: 130px;
     left: 90px;
+    width: 180px;
+    height: 100px;
+    background: #ffffff;
+    border-bottom: 5px solid #bdc3c7;
+    padding: 10px 15px;
+    color: #7f8c8d;
 }
+
+ .icon-comments {
+    position: absolute;
+    background-image: url("/assets/course14/quotes.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: #7f8c8d;
+    right: 52px;
+    top: 22px;
+    padding: 20px;
+    border-bottom: 5px solid #bdc3c7;
+}
+
+.icon-tags {
+    position: absolute;
+    background-image: url("/assets/course14/post-challenge.png");
+    left: 140px;
+    background-position: 20px 0;
+}
+
 
 /*
 Все размеры, отступы, координаты, размеры шрифтов (не заданные в body) кратны 5 или 10.
