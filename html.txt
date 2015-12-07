@@ -8,10 +8,17 @@
         <form class="login-form" action="/auth" method="post">
             <div class=block>
                 Вход в кабинет
-                Логин
-                Пароль
-                Я забыл пароль
-                Запомните меня
+                <div class="login-form">
+                        <input type="text" value="Логин">
+                        <br><br>
+                        <input type="password" value="Пароль">
+                        <br>
+                        <input type="checkbox">Запомните меня
+                        Я забыл пароль
+                        <br>
+                        <input type="submit" value="ВОЙТИ">
+
+                </div>
             </div>
         </form>
     </body>
