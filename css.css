@@ -14,8 +14,8 @@ body{
 .block {
     display: inline-block;
     background-color: #ffffff;    
-    padding: 30px;
-    margin: 0px 10px 10px 30px;
+    padding: 0px 37px 20px 30px;
+    margin: 0px 10px 10px 25px;
     
 }
 
@@ -27,26 +27,56 @@ body{
     font-size: 12px;
     font-family:"Tahoma", sans-serif;
     text-transform: uppercase;
-    padding: 5px;
-    width: 300px;
-    
+    padding: 0px 10px 0px 10px;
+    //width: 290px;    
+    //margin: 10px;
 }
 
-.login-form input[type="checkbox"]{
-    vertical-align:middle;
-    margin-right:5px;
-    
+.login-form2 input[type="checkbox"]{
+    //vertical-align:middle;
+    margin: 15px 0px 0px 5px;
+    //padding: 25px;
+    //vertical-align: center;
 }
 
-.login-form input[type="submit"] {
+.login-form2 input[type="submit"] {
     background-color: #000000;
     color: #ffffff;
     padding: 15px;
+    margin: 20px 0px 0px 0px;
+    width: 310px;
 }
 
 a {
     color: black;    
-    padding-left: 30px;
+    padding-left: 40px;
+}
+
+h2 {
+    padding: 0px 0px 0px 5px;    
+    font-size: 20px;
+}
+
+.login-form2 input[type="text"] {
+    background-image: url("/assets/ifmo/icon-user.png");
+    background-repeat: no-repeat;
+    background-position: 270px;
+    border: 2px solid black;
+    color: gray;
+    text-transform: capitalize;
+    padding: 10px;
+    width: 280px
+}
+
+.login-form2 input[type="password"] {
+    background-image: url("/assets/ifmo/icon-lock.png");
+    background-repeat: no-repeat;
+    background-position: 270px;
+    border: 2px solid black;
+    text-transform: capitalize;
+    padding: 10px;
+    width: 280px;
+    
 }
 
 /*
