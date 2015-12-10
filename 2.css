@@ -1,0 +1,96 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+body{
+    width:500px;
+    height:300px;
+    font-size:16px;
+    font-family:"Tahoma", sans-serif;
+    line-height:20px;
+    color:black;
+    background:#eeeeee;
+}
+
+.block {
+    position: relative;
+      //background: yellow; 
+      width: 500px;
+      height: 300px;
+      background-image: url("/assets/ifmo/slide-bg.png");
+      background-repeat: no-repeat;
+      background-position: 280px ;
+}
+
+.title {
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    //top: 20px;
+    //left: 20px;
+    padding: 42px 20px 20px 20px;
+    //background: green;
+}
+
+.title2 {
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    top: 67px;
+    left: 20px;
+    //padding: 40px 20px 20px 20px;
+    
+}
+
+
+.block input[type="submit"] {
+    position: absolute;
+    background-color: #fb565a;
+    color: #ffffff;  
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    border: 0px solid black;
+    font-size: 15px;
+    text-transform: uppercase;
+    top: 190px;
+    left: 20px;
+    //background: green;
+}
+
+.pict {
+    //position: absolute;
+    //display: inline-block;
+    //background-image: url("/assets/ifmo/slide-bg.png");
+    //top: 0px;
+    //left: 0px;
+    //background: green;
+}
+
+.basetext {
+    position: absolute;
+    width: 250px;
+    height: 70px;
+    top: 105px;
+    left: 20px;
+    font-size: 17px;
+    //background: red;
+}
+
+.block input[type="radio"] {
+    position: relative;
+    top: 255px;    
+    left: 225px;
+    //background: red;
+    //color: red;
+    //border: 0px solid black;
+}
+
+/* 
+Адрес фоновой картинки слайда:
+/assets/ifmo/slide-bg.png
+Используемые цвета:
+#666666
+#ffffff
+#fb565a
+*/
