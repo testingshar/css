@@ -77,13 +77,24 @@ body{
     //background: red;
 }
 
-.block input[type="radio"] {
-    position: relative;
-    top: 255px;    
-    left: 225px;
-    //background: red;
-    //color: red;
-    //border: 0px solid black;
+.radio {
+    position: absolute;
+    left: 220px;
+    top: 260px;
+}
+
+.radio a {
+    display: inline-block; 
+    background-color: #666666;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    border: 5px solid #666666;
+    margin-right: 3px;
+}
+
+.radio a.active {
+    background-color: #ffffff;
 }
 
 /* 
