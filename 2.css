@@ -1,0 +1,119 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+body{
+    width:500px;
+    height:310px;
+    font-size:14px;
+    font-family:"Tahoma", sans-serif;
+    color:black;
+    background:#ecf0f1;
+}
+.catalog-items {
+    width:470px;
+    margin:auto;
+    padding-top:10px;
+}
+.catalog-item {
+    position:relative;
+    display:inline-block;
+    width:218px;
+    margin-right:20px;
+    border:1px solid #ccc;
+    line-height:20px;
+    font-weight:bold;
+    text-align:center;
+    vertical-align:top;
+    background:white;
+}
+
+.catalog-item {
+    margin-right:0;
+}
+.flag-new {
+    position:absolute;
+    top:-1px;
+    right:-1px;
+    width:60px;
+    height:60px;
+    text-indent:-1000px;
+    overflow:hidden;
+     z-index:20;
+}
+.flag-new {
+    background:url("/assets/ifmo/new-flag.png") no-repeat 0 0;
+}
+
+selector  {
+    position:absolute;
+    top:0;
+    left:0;
+    width:218px;
+    height:88px;
+    padding:40px 0;
+    background-color:rgba(255,255,255,0.9);
+    z-index:10;
+}
+.actions a:last-child{
+    display:block;
+    width:129px;
+    margin:0 auto;
+    margin-bottom:7px;
+    padding:7px 0;
+    border:3px solid #63a63e;   //зеленый цвет кнопки
+    border-bottom-color:#367315; // темнозеленый цвет тени кнопки
+    background-color:#63a63e;
+    color:white;
+    font-size:12px;
+    font-weight:normal;
+    font-family:"Tahoma", sans-serif;
+    line-height:18px;
+    text-decoration:none;
+    text-transform:uppercase;
+    border-radius:3px;
+}
+
+selector {
+    color:#32425c;
+    background:white;
+    border-bottom-color:#63a63e;
+}
+
+selector{
+    display:none;
+}
+
+selector{
+    width:218px;
+    height:168px;
+}
+
+selector{
+    min-height:20px;
+    padding:0 20px;
+    margin-top:10px;
+    margin-bottom:15px;
+}
+
+.price {
+    position:relative;
+    width:80px;
+    margin:10px auto;
+    margin-bottom:20px;
+    padding:10px 30px;
+    color:white;
+    background:#ee3643;
+    border-radius:3px;
+}
+
+.price:after {
+    content:"";
+    position:absolute;
+    top:0;
+    right:-20px;
+    width:0;
+    height:0;
+    border:20px solid white;
+    border-left-color:#ee3643;
+}
