@@ -45,7 +45,7 @@ body{
     background:url("/assets/ifmo/new-flag.png") no-repeat 0 0;
 }
 
-selector  {
+.catalog-items > .catalog-item > .actions:nth-child(2)  {
     position:absolute;
     top:0;
     left:0;
@@ -55,7 +55,9 @@ selector  {
     background-color:rgba(255,255,255,0.9);
     z-index:10;
 }
-.actions a:last-child{
+
+
+.actions a{
     display:block;
     width:129px;
     margin:0 auto;
@@ -74,13 +76,14 @@ selector  {
     border-radius:3px;
 }
 
+
 selector {
     color:#32425c;
     background:white;
     border-bottom-color:#63a63e;
 }
 
-selector{
+.actions:first-child{
     display:none;
 }
 
@@ -89,7 +92,7 @@ selector{
     height:168px;
 }
 
-selector{
+selector {
     min-height:20px;
     padding:0 20px;
     margin-top:10px;
