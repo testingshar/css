@@ -10,12 +10,12 @@ body{
     color:black;
     background:#ecf0f1;
 }
-.catalog-items {
+.catalog-items {        /*отступ товара*/
     width:470px;
     margin:auto;
     padding-top:10px;
 }
-.catalog-item {
+.catalog-item {         /* рамка вокруг товара*/
     position:relative;
     display:inline-block;
     width:218px;
@@ -28,10 +28,11 @@ body{
     background:white;
 }
 
-.catalog-item {
+.catalog-item {         /*перенос товара на одну строку*/
     margin-right:0;
 }
-.flag-new {
+
+.flag-new {             /*положение полупрозрачного фона у кнопок*/
     position:absolute;
     top:-1px;
     right:-1px;
@@ -39,13 +40,14 @@ body{
     height:60px;
     text-indent:-1000px;
     overflow:hidden;
-     z-index:20;
+    z-index:20;
 }
-.flag-new {
+
+.flag-new {         /*красная ленточка на искосок*/
     background:url("/assets/ifmo/new-flag.png") no-repeat 0 0;
 }
 
-.catalog-items > .catalog-item > .actions:nth-child(2)  {
+.catalog-items > .catalog-item > .actions:nth-child(2)  { /*выравнивание кнопок "купить" и "в закладки" и колонки*/
     position:absolute;
     top:0;
     left:0;
@@ -57,7 +59,7 @@ body{
 }
 
 
-.actions a{
+.btn {          /*кнопки купить и в закладки*/
     display:block;
     width:129px;
     margin:0 auto;
@@ -77,13 +79,13 @@ body{
 }
 
 
-selector {
+.actions a{     /* оформление кнопки в закладки*/
     color:#32425c;
     background:white;
     border-bottom-color:#63a63e;
 }
 
-.actions:first-child{
+.actions:first-child{   /*прячет кнопки на правой плашке*/
     display:none;
 }
 
@@ -99,7 +101,7 @@ selector {
     margin-bottom:15px;
 }
 
-.price {
+.price {        /*крассная кнопка  цены*/
     position:relative;
     width:80px;
     margin:10px auto;
@@ -110,7 +112,7 @@ selector {
     border-radius:3px;
 }
 
-.price:after {
+.price:after {      /*стрелка у красной кнопки цены*/
     content:"";
     position:absolute;
     top:0;
